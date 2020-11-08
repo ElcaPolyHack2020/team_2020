@@ -7,7 +7,7 @@ Date: 2020 November 7-8
 
 * Detailed description of our project and approach can be found [here](https://github.com/ElcaPolyHack2020/team_2020/blob/main/ELCA_Challenge_Team_2020.pdf).
 * Our run statistics can be found [here](https://github.com/ElcaPolyHack2020/team_2020/blob/main/run_statistics.csv).
-* Demo of our simulation running for 10800 timesteps can be found [here![demo](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)  
+* Demo of our simulation running for 10800 timesteps can be found [here![demo](http://i3.ytimg.com/vi/Uk3Eflc-Wg0/maxresdefault.jpg)](https://youtu.be/Uk3Eflc-Wg0)  
 
 
 ## Our Algorithm
@@ -23,7 +23,7 @@ This version of our algorithm picks up the first passenger in the group, and add
 
 ## Run Results
 
-| Methods | Buses Dispatched | Pedestrians picked up | Route Length | Total Wait Time (waiting time * Pedestrians picked up) |
+| Methods | Buses Dispatched | Pedestrians picked up | Route Length | Total Wait Time (waiting time x Pedestrians picked up) |
 |---------|------------------|-----------------------|--------------|-----------------|
 | Greedy I | 58022 | 5583 | 17554.98 | 3795044.25 |
 | Greedy II | 58022 | 5590 | 14881.37 | 4728301.5 |
