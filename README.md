@@ -7,7 +7,7 @@ Date: 2020 November 7-8
 
 * Detailed description of our project and approach can be found [here](https://github.com/ElcaPolyHack2020/team_2020/blob/main/ELCA_Challenge_Team_2020.pdf).
 * Our run statistics can be found [here](https://github.com/ElcaPolyHack2020/team_2020/blob/main/run_statistics.csv).
-* Demo of our simulation running for 10800 timesteps can be found [here![demo](http://i3.ytimg.com/vi/Uk3Eflc-Wg0/maxresdefault.jpg)](https://youtu.be/Uk3Eflc-Wg0)  
+* Demo of our simulation running for 10800 timesteps can be found [![here](http://i3.ytimg.com/vi/Uk3Eflc-Wg0/hqdefault.jpg)](https://youtu.be/Uk3Eflc-Wg0)  
 
 
 ## Our Algorithm
