@@ -1,11 +1,16 @@
 # team_2020
 
-PolyHACK 2020: ELCA Challenge - Traffic optimization with real-time simulation
-Team members:
+PolyHACK 2020: ELCA Challenge - Traffic optimization with real-time simulation  
+Team Members: Amaris Chen, Chi-Ching Hsu, Ya-Chi Yu, Ting-Yu Chen  
+chenam@student.ethz.ch, hsuch@student.ethz.ch, yuyachi@student.ethz.ch, tinchen@student.ethz.ch  
+Date: 2020 November 7-8  
 
-Detailed description of our approach can be found [here]().
+* Detailed description of our project and approach can be found [here](https://github.com/ElcaPolyHack2020/team_2020/blob/main/ELCA_Challenge_Team_2020.pdf).
+* Our run statistics can be found [here](https://github.com/ElcaPolyHack2020/team_2020/blob/main/run_statistics.csv).
+* Demo of our simulation running for 10800 timesteps can be found [here![demo](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)  
 
-## Our Algorithms
+
+## Our Algorithm
 
 First, we bucket all the pedestrians by their depart time into buckets of time intervals. We dispatch our buses by time intervals to pick our passengers.
 
