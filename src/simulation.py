@@ -139,7 +139,7 @@ class Simulation:
         # df['modified_edge_from'] = df.edge_from.apply(lambda x: x[1:] if [0] == '-' else x)
         # df['modified_edge_from'] = df.modified_edge_from.apply(lambda x: x[:x.find('#')] if x.find('#') != -1 else x)
         # df['modified_edge_from'] = df.modified_edge_from.apply(lambda x: (len(x), x))
-        df['modified_edge_from'] = df.edge_from.apply(lambda x: (len(x[1:]), x[1:]) if [0] == '-' else (len(x), x))
+        df['modified_edge_from'] = df.edge_from.apply(lambda x: (len(x[1:]), x[1:]) if x[0] == '-' else (len(x), x))
         idx_time_interval = self.divide_data_by_time(df)
         for number_of_group in range(len(idx_time_interval)):
             group_30_min_data = df.loc[idx_time_interval[number_of_group]]   
@@ -156,7 +156,7 @@ class Simulation:
                 ##################################################
                 # Route Scheduling Function
                 ##################################################
-                self.find_best_route1(group, bus_id, bus_index)
+                self.find_best_route(group, bus_id, bus_index)
            
         traci.vehicle.subscribe('bus_0', (tc.VAR_ROAD_ID, tc.VAR_LANEPOSITION, tc.VAR_POSITION , tc.VAR_NEXT_STOPS ))
         step = 0
